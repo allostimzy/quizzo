@@ -18,7 +18,7 @@ export default function QuestionTab({ questionIndex, showAnswer }) {
 
           {showAnswer && (
             <div className="pl-6 text-green-600">
-              <h3 className="font-semibold text-xl mb-2.5">Answer:</h3>
+              <h3 className="font-semibold text-[40px] mb-2.5">Answer:</h3>
               <p className="text-gray-700s">
                 {questionsJson[questionIndex - 1].answer}
               </p>
