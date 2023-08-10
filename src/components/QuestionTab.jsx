@@ -4,7 +4,7 @@ export default function QuestionTab({ questionIndex, showAnswer }) {
   return (
     <div className="text-justify">
       {questionIndex === null ? (
-        <p className="text-xl">No Active Question! Plelase select a question</p>
+        <p className="text-[20px]">No Active Question! Plelase select a question</p>
       ) : (
         <>
           <div className="mb-8">
