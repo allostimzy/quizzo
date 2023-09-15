@@ -4,11 +4,11 @@ export default function QuestionTab({ questionIndex, showAnswer }) {
   return (
     <div className="text-justify">
       {questionIndex === null ? (
-        <p className="text-[20px]">No Active Question! Plelase select a question</p>
+        <p className="text-[40px]">No Active Question! Please select a question</p>
       ) : (
         <>
           <div className="mb-8">
-            <h3 className="font-bold text-2xl mb-4">
+            <h3 className="font-bold text-[30px] mb-4">
               Question {questionIndex}:
             </h3>
             <p className="text-gray-800">
