@@ -8,7 +8,7 @@ export default function QuestionTab({ questionIndex, showAnswer }) {
       ) : (
         <>
           <div className="mb-8">
-            <h3 className="font-bold text-[30px] mb-4">
+            <h3 className="font-bold text-[40px] mb-4">
               Question {questionIndex}:
             </h3>
             <p className="text-gray-800">
