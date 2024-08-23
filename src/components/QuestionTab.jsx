@@ -11,7 +11,7 @@ export default function QuestionTab({ questionIndex, showAnswer }) {
             <h3 className="font-bold text-[40px] mb-4">
               Question {questionIndex}:
             </h3>
-            <p className="text-[black]">
+            <p className="text-gray-800">
               {questionsJson[questionIndex - 1].questions}
             </p>
           </div>
